@@ -74,7 +74,7 @@
          %end;
          )
       into :&listvar
-      from test
+      from &dsn.
       ;
    quit;
 %mend;
